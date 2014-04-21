@@ -8,7 +8,7 @@ class Unit:
             self.last = last
             self.current = last
             self.prefs = prefs
-      
+
 
 class Person(Unit):
       def __init__(self, name, kerberos, last, prefs):
@@ -69,7 +69,7 @@ class Quad(Unit):
             self.person4 = person4
             self.size = 4
 
-            
+
 
 class Room:
       def __init__(self, resident, occupancy, number):
@@ -289,4 +289,4 @@ def print_results(order, people):
 ##r4 = Room('a', 1, 4)
 ##
 ##validate({'a':a, 'b':b, 'c':c}, {1:r1, 2:r2, 3:r3, 4:r4}, ['a', 'b', 'c'])
-##                  
+##
